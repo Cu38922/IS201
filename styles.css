@@ -1,0 +1,73 @@
+/* These are the approved styles for the site.  */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(31, 11, 56);
+    background-color: lightblue;
+}
+
+h4 {
+    font-size: 18px;
+    color: black;
+}
+
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.bold {
+font-weight: bold;
+font-style: normal;
+}
+
+li {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.underline {
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.homebg {
+    background-image: url('Images/bridal_photos.JPG');
+    background-position: center center;
+}
+
+.homefont {
+    color: white;
+}
+
+//* These boxes were only made to show the box style*/
+.box1 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: greenyellow;
+    border-top: dotted greenyellow;
+}
+
+.box2 {
+    padding: 4px;
+}
+
+.box3 {
+    margin: 4px;
+}
+
+.box4 {
+    padding-left: 10px;
+    margin: 100px;
+    border-right: solid 5px blue;
+}
